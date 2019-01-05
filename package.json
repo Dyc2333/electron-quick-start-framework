@@ -1,0 +1,26 @@
+{
+  "name": "electron-quick-start-framework",
+  "version": "1.0.0",
+  "description": "基于electron进行二次开发的快速开发框架，使得业务人员只需关注业务，框架负责处理细节，提供诸如配置管理，日志记录，路由传参，菜单配置，网络流，文件读写，消息通知，全局状态机，公共视图等功能，极大简化electron开发。",
+  "main": "main.js",
+  "scripts": {
+    "start": "CHCP 65001 & electron ."
+  },
+  "keywords": [
+    "electron",
+    "framework"
+  ],
+  "author": "狄雨晨",
+  "license": "",
+  "devDependencies": {
+    "art-template": "^4.13.2",
+    "electron": "^3.0.7",
+    "electron-notifications": "^1.0.0",
+    "log4js": "^3.0.6",
+    "unirest": "^0.5.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "log4js": "^3.0.6"
+  }
+}
