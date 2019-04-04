@@ -72,7 +72,7 @@ function openNewWindow(view, args) {
     if (args != null) {
         global.sharedObject.args.default = args;//保存路由传递参数到缓冲区
     }
-    const modalPath = path.join('file://', __dirname, '/src/view/' + view + '.html');
+    const modalPath = path.join('file://', path.resolve(__dirname,'..'), '/view/' + view + '.html');
     logger.info("[MainProcessHelper][openNewWindow]新视图 " + view + " 已加载");
     mainWindow.loadURL(modalPath);//使用loadFile方法动态修改渲染进程容器中的视图
 }
