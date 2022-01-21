@@ -16,11 +16,11 @@
     "art-template": "^4.13.2",
     "electron": "^3.0.7",
     "electron-notifications": "^1.0.0",
-    "log4js": "^3.0.6",
+    "log4js": "^6.4.0",
     "unirest": "^0.5.1"
   },
   "dependencies": {
     "jquery": "^3.3.1",
-    "log4js": "^3.0.6"
+    "log4js": "^6.4.0"
   }
 }
