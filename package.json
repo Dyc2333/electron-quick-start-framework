@@ -14,7 +14,7 @@
   "license": "",
   "devDependencies": {
     "art-template": "^4.13.2",
-    "electron": "^3.0.7",
+    "electron": "^13.6.6",
     "electron-notifications": "^1.0.0",
     "log4js": "^3.0.6",
     "unirest": "^0.5.1"
